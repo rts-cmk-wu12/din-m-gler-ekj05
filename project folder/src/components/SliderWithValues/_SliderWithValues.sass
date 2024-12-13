@@ -1,0 +1,28 @@
+.price-range-container
+    display: flex
+    flex-direction: column
+    .slider-container
+        display: flex
+        align-items: center
+        flex: 9
+        .react-slider 
+            width: 25em
+            display: flex
+            align-items: center
+            height: 2.5px
+            background-color: #D3DEE8
+            border-radius: 5px
+        .react-slider .react-slider-thumb 
+            background-color: #C4C4C4
+            width: 20px
+            height: 20px
+            border-radius: 50%
+            cursor: pointer
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+        .react-slider .react-slider-track 
+            background-color: #ddd
+        .react-slider .react-slider-rail 
+            background-color: #ccc
+    .min-max-container
+        display: flex
+        justify-content: space-between
